@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+    <LinearLayout
+        android:id="@+id/security_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp" >
+
+        <ImageView
+            android:id="@+id/securityAuto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/auto" />
+
+        <RadioGroup
+            android:id="@+id/security_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:onClick="onRGClick" >
+
+            <RadioButton
+                android:id="@+id/security1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/baomatngoai" />
+
+            <RadioButton
+                android:id="@+id/security2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/baomattoanbo" />
+
+            <RadioButton
+                android:id="@+id/security3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/baomattudong" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/security_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14sp"
+        android:layout_marginTop="20sp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khóa cửa"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cảnh báo          "
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/homeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="An toàn"
+                android:textColor="#33b5e5"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/khoaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f44"
+                android:hint="Đã khóa"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/canhbaoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Không"
+                android:textColor="#f44"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/security_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gas" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20sp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Khí Gas"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhiệt độ"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Độ ẩm kk        "
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/gasText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="An toàn"
+                android:textColor="#f44"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/nhietdoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#33b5e5"
+                android:hint="@string/doC"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/doamText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="%"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

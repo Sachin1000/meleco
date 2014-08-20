@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:measureWithLargestChild="false"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="145sp"
+        android:background="@drawable/house"
+        android:contentDescription="@string/app_name"
+        android:fitsSystemWindows="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/phongkhach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phongkhach" />
+
+            <CheckBox
+                android:id="@+id/phongngu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phongngu" />
+
+            <CheckBox
+                android:id="@+id/phongbep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phongbep" />
+
+            <CheckBox
+                android:id="@+id/phonglamviec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phonglamviec" />
+
+            <CheckBox
+                android:id="@+id/phongtam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phongtam" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/vuoncay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vuonsau" />
+
+            <CheckBox
+                android:id="@+id/santruoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vuontruoc" />
+
+            <CheckBox
+                android:id="@+id/santhuong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/santhuongtruoc" />
+
+            <CheckBox
+                android:id="@+id/hanhlang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hanhlang" />
+
+            <CheckBox
+                android:id="@+id/phongtrong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phongtrong" />
+            
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+
+        <Button
+            android:id="@+id/chongphong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15sp"
+            android:minHeight="30dip"
+            android:minWidth="140sp"
+            android:text="Tạo phòng" />
+
+        <Button
+            android:id="@+id/huyphong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="15dp"
+            android:minHeight="30dip"
+            android:minWidth="140sp"
+            android:text="Hủy" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_addroom">Add Room</string>
+    <string name="action_setinfo">Set Data</string>
+     <string name="action_getinfo">Get Data</string>
+      <string name="action_reset">Reset Server</string>
+     <string name="nfc_class">Nfc List</string>
+    <string name="change_items">Change Items</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="myname">Nguyễn Quý Trường \n quytruong1991@gmail.com \n</string>
+    
+    <string name="title_section0">NFC</string>
+    <string name="title_section1">Channel</string>
+    <string name="title_section2">Control</string>
+    <string name="title_section3">Security</string>
+    <string name="title_section4">Garden</string>
+    <string name="title_section5">Information</string>
+    
+    <string name="phongkhach">Phòng khách</string>
+    <string name="phongngu">Phòng ngủ</string>
+    <string name="phongbep">Phòng bếp</string>
+    <string name="phonglamviec">Phòng làm việc</string>
+    <string name="phongtam">Phòng tắm</string>
+    <string name="vuonsau">Vườn sau</string>
+    <string name="vuontruoc">Vườn trước</string>
+    <string name="santhuongtruoc">Sân thượng trước</string>
+    <string name="phongtrong">Cầu thang</string>
+    <string name="hanhlang">Hành lang</string>
+    
+    <string name="bongden">Đèn</string>
+    <string name="quat">Quạt</string>
+    <string name="loa">Loa</string>
+    <string name="laptop">Laptop</string>
+    <string name="tivi">Tivi</string>
+    <string name="khoa">Khóa</string>
+    <string name="bom">Bơm</string>
+    <string name="dieuhoa">Điều hòa</string>
+    
+    <string name="textsetting">Cấu hình Chương Trình</string>
+    <string name="doC">\u2103</string>  
+    <string name="doF">\u2109</string> 
+    
+    <string name="baomatngoai">Bảo mật ngoài nhà</string> 
+    <string name="baomattoanbo">Bảo mật toàn bộ</string>
+    <string name="baomattudong">Bảo mật tự động</string>
+    <string name="khongbaomat">Tắt chế độ bảo mật</string>
+    
+    <string name="mo">mở</string>
+    <string name="tat">tắt</string>
+    <string name="auto">auto</string>
+        
+    <string name="kenh">kênh</string>
+    <string name="vtv1">vtv1</string>
+    <string name="vtv2">vtv2</string>
+    <string name="vtv3">vtv3</string>
+    <string name="htv1">htv1</string>
+    <string name="htv2">htv2</string>
+    <string name="htv3">htv3</string>
+    <string name="htv4">htv4</string>
+    <string name="htv7">htv7</string>
+    <string name="cartoon">cartoon</string>
+    <string name="discovery">discovery</string>
+    <string name="geographic">geographic</string>
+    <string name="disney">disney</string>
+    <string name="hbo">hbo</string>
+    <string name="starmovie">starmovie</string>
+    <string name="soha">soha</string>
+    <string name="nhaccuatui">nhaccuatui</string>
+    <string name="power">power</string>
+    <string name="youtube">youtube</string>
+    <string name="down">down</string>
+    <string name="up">up</string>
+    <string name="right">right</string>
+    <string name="left">left</string>
+    <string name="volumteUP">volumteUp</string>
+    <string name="volumteDown">volumteDown</string>
+    <string name="channelUp">channelUp</string>
+    <string name="channelDown">channelDown</string>
+    <string name="home">home</string>
+    <string name="back">back</string>
+    <string name="enter">enter</string>
+    <string name="mute">mute</string>
+    <string name="menu">menu</string>
+    <string name="exit">exit</string>
+    
+</resources>

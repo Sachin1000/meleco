@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:weightSum="10" >
+
+    <ImageView
+        android:id="@+id/loa"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignTop="@+id/quat"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/quat"
+        android:layout_weight="2"
+        android:src="@drawable/ic_loaon" />
+
+    <ImageView
+        android:id="@+id/quat"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignTop="@+id/bongden"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/bongden"
+        android:layout_weight="2"
+        android:src="@drawable/ic_fanon" />
+
+    <ImageView
+        android:id="@+id/laptop"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/bongden"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/quat"
+        android:layout_weight="2"
+        android:src="@drawable/ic_laptopon" />
+
+    <ImageView
+        android:id="@+id/bom"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_below="@+id/laptop"
+        android:layout_marginTop="31dp"
+        android:layout_toLeftOf="@+id/quat"
+        android:layout_weight="2"
+        android:src="@drawable/ic_bomon" />
+
+    <ImageView
+        android:id="@+id/bongden"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="2"
+        android:src="@drawable/ic_lighton" />
+
+    <ImageView
+        android:id="@+id/dieuhoa"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/tivi"
+        android:layout_alignTop="@+id/bom"
+        android:layout_weight="2"
+        android:src="@drawable/ic_dieuhoaon" />
+
+    <ImageView
+        android:id="@+id/khoa"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignLeft="@+id/loa"
+        android:layout_alignTop="@+id/tivi"
+        android:layout_weight="2"
+        android:src="@drawable/ic_lockon" />
+
+    <ImageView
+        android:id="@+id/tivi"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignTop="@+id/laptop"
+        android:layout_toLeftOf="@+id/loa"
+        android:layout_weight="2"
+        android:src="@drawable/ic_tvon" />
+
+</RelativeLayout>

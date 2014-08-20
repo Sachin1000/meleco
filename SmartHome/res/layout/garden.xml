@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$DummySectionFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="485dp"
+        android:layout_weight="1.0"
+        android:orientation="vertical" >
+
+
+        <LinearLayout
+            android:id="@+id/garden_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="100" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:orientation="vertical"
+                android:weightSum="100" >
+
+                <ImageView
+                    android:id="@+id/imageDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="18"
+                    android:paddingLeft="10sp"
+                    android:paddingTop="10sp"
+                    android:src="@drawable/widget_icon_cloud" />
+
+                <TextView
+                    android:id="@+id/weatherCondition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="82"
+                    android:hint="weather" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="40"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/weatherTemp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="temperature"
+                    android:paddingLeft="40sp"
+                    android:paddingTop="20sp"
+                    android:textColor="#33b5e5"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/weatherDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Độ ẩm đất"
+                    android:paddingLeft="40sp" />
+
+                <TextView
+                    android:id="@+id/weatherSpeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Độ ẩm không khí"
+                    android:paddingLeft="40sp" />
+
+                <TextView
+                    android:id="@+id/weatherCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Áng sáng"
+                    android:paddingLeft="40sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/garden_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/garden_auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Hẹn giờ tưới cây"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/garden_layout_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+
+                <TimePicker
+                    android:id="@+id/timePicker1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2sp"
+        android:background="#33b5e5" />
+
+    <ImageView
+        android:id="@+id/weather_setting"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:src="@drawable/ic_setting" />
+
+</LinearLayout>

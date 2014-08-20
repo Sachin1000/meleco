@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/AddRoom"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_addroom"/>
+    <item
+        android:id="@+id/GetInfo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_getinfo"/>
+    <item
+        android:id="@+id/SetInfo"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_setinfo"/>
+    <item
+        android:id="@+id/ResetServer"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_reset"/>
+    <item
+        android:id="@+id/About"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+    <item
+        android:id="@+id/Setting"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
